@@ -1,0 +1,66 @@
+.firstOrLast{
+	color: red;
+}
+
+span{
+	color: #090;
+}
+
+.blanc{
+	background-color: rgb(255,255,255);
+}
+
+.vert {
+	background-color: rgb(150,255,150);
+}
+
+.rouge {
+	background-color: rgb(255,150,150);
+}
+
+aside {
+	width: 200px;
+	height: 100vh;
+	margin-right: .5rem;
+	padding-right: .5rem;
+	float: left;
+}
+
+
+#nav {
+	width: 200px;
+}
+
+.nav-block {
+	margin-bottom: 25px;
+	color: #ffffff !important;
+	background-color: #000000;
+	border-radius: 5px;
+}
+
+.nav-block a {
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.nav-block-title {
+	padding: 5px;
+	background-color: #00f;
+	border-radius: 5px 5px 0 0;
+}
+
+.nav-block-title img {
+	margin-right: 5px;
+}
+
+.nav-block ul {
+	display: none;
+	margin: 0;
+	padding: 25px 25px 20px;
+	list-style: none;
+}
+
+.nav-block ul li {
+	margin-bottom: 5px;
+}
+

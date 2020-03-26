@@ -1,0 +1,86 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+	<title>exercice 1</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Ugo Bronszewski">
+	<meta name="author" content="toto">
+	<meta name="description" content="TP1">
+	<meta name="keywords" content="tp,js">
+
+	<link rel="stylesheet" type="text/css" href="css/exo1.css" media="all">
+	<script type="application/javascript" src="js/exo1.js"></script>
+</head>
+<body onload="init();">	
+	<aside>
+		<nav id="nav">
+			<div class="nav-block">
+				<div class="nav-block-title">
+					<a href="#infos" class="nav-block-title-link">Informations générales</a>
+				</div>
+				<ul id="infos">
+					<li><a href="">Accueil</a></li>
+					<li><a href="">CV</a></li>
+				</ul>
+			</div>
+			<div class="nav-block">
+				<div class="nav-block-title">
+					<a href="#recherche" class="nav-block-title-link">Recherche</a>
+				</div>
+				<ul id="recherche">
+					<li><a href="">Activités</a></li>
+					<li><a href="">Rayonnement scientifique</a></li>
+					<li><a href="">Projets en cours</a></li>
+					<li><a href="">Anciens projets</a></li>
+					<li><a href="">Publications</a></li>
+				</ul>
+			</div>
+			<div class="nav-block">
+				<div class="nav-block-title">
+					<a href="#enseignement" class="nav-block-title-link">Enseignement</a>
+				</div>
+				<ul id="enseignement">
+					<li><a href="">Département Informtique</a></li>
+					<li><a href="">LP SIL</a></li>
+					<li><a href="">Polytech Nice-Sophia</a></li>
+					<li><a href="">Autres</a></li>
+					<li><a href="">Stages et Projets</a></li>
+				</ul>
+			</div>
+			<div class="nav-block">
+				<div class="nav-block-title">
+					<a href="#perso" class="nav-block-title-link">Personnel</a>
+				</div>
+				<ul id="perso">
+					<li><a href="">Moi</a></li>
+				</ul>
+			</div>
+		</nav>
+	</aside>
+	<button onclick="inverseTexte('innerText')">InnerText</button>
+	<button onclick="inverseTexte('innerHTML')">InnerHTML</button>
+	<button onclick="inverseTexte('outerText')">OuterText</button>
+	<button onclick="inverseTexte('outerHTML')">OuterHTML</button>
+	<button onclick="inverseTexte('textContent')">TextContent</button>
+	<h1 id="titre" class="firstOrLast">Entête <span>1</span></h1>
+		<div><p>Sed do eiusmod <span>tempor</span> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p></div>
+		<h2 class="firstOrLast">1ere Entête 2</h2>
+			<div><p>Dolore eu fugiat <span><strong>nulla pariatur</strong></span>. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+			<h3 class="firstOrLast">1 Entête 3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		<h2 class="firstOrLast">2e Entête 2</h2>
+			<p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3>2e Entête 3</h3>
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3>3e Entête 3</h3>
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<div id="date_modif"></div>
+	<p id="isIn" onclick="majNbJours()">Il reste xxx jours avant le 6 mai 2020</p>
+	<p id="horloge"></p>
+	<p id="grafHorloge"></p>
+	<form action="">
+		<input type="text" id="colorInput" class="blanc" on>
+	</form>
+</body>
+</html>
