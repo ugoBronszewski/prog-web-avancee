@@ -1,0 +1,20 @@
+body { font-family: serif;}
+h1, h2, h3 { font-family: sans-serif;}
+h1{background-color: #def; padding: 10px;margin-left:10px;}
+.h{background-color: #abc; padding: 10px;margin-left:60px;}
+h3{background-color: #789; padding: 10px;margin-left:110px;}
+div{background-color: #ddd; padding: 20px;margin-left:110px;}
+p{background-color: #eee; padding: 20px;}
+.pink{ background-color: pink;}
+
+.blue {
+    background-color: dodgerblue;
+}
+
+.red {
+    background-color: indianred;
+}
+
+.orange {
+    background-color: orange;
+}
